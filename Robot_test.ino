@@ -50,7 +50,7 @@ void loop() {
  }
  d3=sqrt(x*x+y*y);
  g1=atan2(-x, y);
- //d2=z-5;
+ //d2=z-5; lỗi chưa biết z
  
  step1 = ((g1 * 8) / 1.8) * 4 * 3.53;
 digitalWrite (dir, HIGH);
